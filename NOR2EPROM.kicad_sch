@@ -2820,28 +2820,12 @@
 		(uuid "6a784403-326c-47fb-b6c3-cb816f0e6779")
 	)
 	(no_connect
-		(at 240.03 62.23)
-		(uuid "24cff285-cb93-4168-9e5d-885dd93901b6")
-	)
-	(no_connect
 		(at 67.31 176.53)
 		(uuid "5b66d718-1f37-4ab6-b875-e93cd7a2d270")
 	)
 	(no_connect
-		(at 240.03 64.77)
-		(uuid "623edfdc-9fa9-46ca-a402-8aad37e1a720")
-	)
-	(no_connect
-		(at 265.43 62.23)
-		(uuid "ae75e3f8-59f2-47d9-bf44-dc470c931137")
-	)
-	(no_connect
 		(at 240.03 67.31)
 		(uuid "d6f4d45f-3c34-4366-a424-4c13c00e9903")
-	)
-	(no_connect
-		(at 265.43 64.77)
-		(uuid "d92c3ade-1c1f-42d5-9d3c-da0a9f87915d")
 	)
 	(no_connect
 		(at 265.43 67.31)
@@ -3091,7 +3075,7 @@
 			)
 		)
 	)
-	(global_label "CHIP_ENABLE"
+	(global_label "EPROM_CE"
 		(shape input)
 		(at 66.04 82.55 0)
 		(fields_autoplaced yes)
@@ -3103,7 +3087,7 @@
 		)
 		(uuid "0e131c53-0237-45aa-9191-9dc6ff5b037e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.4833 82.55 0)
+			(at 78.8827 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3179,7 +3163,7 @@
 			)
 		)
 	)
-	(global_label "OUTPUT_ENABLE"
+	(global_label "EPROM_OE"
 		(shape input)
 		(at 66.04 80.01 0)
 		(fields_autoplaced yes)
@@ -3191,7 +3175,7 @@
 		)
 		(uuid "1244b1eb-a748-4c8a-a5f6-eb3d14b1348c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.2047 80.01 0)
+			(at 78.9432 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4719,6 +4703,28 @@
 			)
 		)
 	)
+	(global_label "EPROM_CE"
+		(shape input)
+		(at 240.03 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "920ee9e9-7fd2-4b42-b43e-36ffac9c56fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.1873 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "EPROM_A9"
 		(shape input)
 		(at 180.34 52.07 180)
@@ -5533,6 +5539,28 @@
 			)
 		)
 	)
+	(global_label "NOR_CE"
+		(shape input)
+		(at 265.43 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbc04890-915b-4bb5-bfc2-6fc6c20df560")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.7328 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "NOR_A13"
 		(shape input)
 		(at 205.74 62.23 0)
@@ -5841,6 +5869,28 @@
 			)
 		)
 	)
+	(global_label "NOR_OE"
+		(shape input)
+		(at 265.43 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e28ed260-705b-451a-8a4a-c42d92025091")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.7933 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "NOR_A1"
 		(shape input)
 		(at 41.91 124.46 180)
@@ -5951,6 +6001,28 @@
 			)
 		)
 	)
+	(global_label "EPROM_OE"
+		(shape input)
+		(at 240.03 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9611a8b-d52f-480e-aa31-5d14bf62c44b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.1268 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "EPROM_A8"
 		(shape input)
 		(at 43.18 52.07 180)
@@ -6017,7 +6089,7 @@
 			)
 		)
 	)
-	(global_label "CHIP_ENABLE"
+	(global_label "NOR_CE"
 		(shape input)
 		(at 67.31 181.61 0)
 		(fields_autoplaced yes)
@@ -6029,7 +6101,7 @@
 		)
 		(uuid "ed54b800-4cc1-45d5-82f1-e4362467c171")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.7533 181.61 0)
+			(at 77.6128 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6083,7 +6155,7 @@
 			)
 		)
 	)
-	(global_label "OUTPUT_ENABLE"
+	(global_label "NOR_OE"
 		(shape input)
 		(at 67.31 179.07 0)
 		(fields_autoplaced yes)
@@ -6095,7 +6167,7 @@
 		)
 		(uuid "f162ca44-038a-4f21-819b-c0c66c056321")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.4747 179.07 0)
+			(at 77.6733 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
